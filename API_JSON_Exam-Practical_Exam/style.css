@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.search_box {
+	width: 200%;
+	height: 50px;
+	outline: none;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.box_container {
+	position: relative;
+}
+
+.box_img-container {
+	position: absolute;
+	top: 50px;
+	left: 35%;
+}
+
+.box_img {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.box_description-container {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+}
+
+.box_description {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.rate_heading {
+	font-size: 30px;
+}
+
+.crypto_name {
+	font-size: 18px;
+}
+
+.crypto_unit {
+	font-size: 18px;
+}
